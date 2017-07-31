@@ -225,7 +225,7 @@
 .page-block2{
 	width : 100%;
 	height : 630px;
-	background-color: yellowgreen;
+	background-color : #F1F1F1;
 }
 
 .page-block3{
@@ -436,8 +436,9 @@
 }
 
 .page-block2-right-block3{
-	width : 290px;
+	width : 289px;
 	height : 113px;
+	margin-top : 1px;
 }
 
 /* #######################################三级分块配置完毕 */
@@ -582,7 +583,7 @@
 
 /* 右侧配置 */
 .page-block2-right-block1-branch1{
-	width : 286px;
+	width : 290px;
 	height : 165px;
 	background-image : url("images/page-top/background1.jpg");
 	background-size: 100%;
@@ -599,10 +600,203 @@
 .page-block2-right-block1-branch1-text1{
 	width : 100%;
 	margin-left : 125px;
+	margin-top : 10px;
 }
 
 .page-block2-right-block1-branch1 > em{
 	width : 16px;
 	height : 16px;
 	background-image: url("images/page-top/hahaha.png");
+	margin-left : 30px;
+}
+
+.page-block2-right-block1-button1{
+	margin-left : 10px;
+	width : 90px;
+	height : 24px;
+	margin-top : 5px;
+}
+
+.page-block2-right-block1-button2{
+	margin : 0px 5px;
+	width : 75px;
+	height : 24px;
+	margin-top : 5px;
+}
+
+.page-block2-right-block1-button3{
+	margin-top : 5px;
+	margin-right : 15px;
+	width : 75px;
+	height : 24px;
+}
+
+/* 右边中间那一部分 */
+.page-block2-right-block1-branch2{
+	height : 31px;
+	width : 100%;
+	background-color : #FFE4DD;
+}
+
+.page-block2-right-block1-branch2 > p{
+	margin-left : 80px;
+	margin-top : 8px;
+}
+
+.page-block2-right-block1-branch2 > i{
+	width : 12px;
+	height : 12px;
+	margin-top : 8px;
+	margin-left : 25px;
+	background-image: url("images/page-top/xiaojiantou.png");
+}
+
+.page-block2-right-block1-branch3{
+	height : 107px;
+	width: 100%;
+	margin-bottom : 2px;
+	background-color: white;
+}
+
+.page-block2-right-block1-branch3 > a{
+
+	margin :15px 5px 5px 5px;
+	width : 40px;
+	height : 18px;
+	text-align: center;
+	padding-top : 6px;
+}
+
+#temp1{
+	margin-left : 20px;
+	border-bottom: 2px solid #FF2E00;
+}
+
+.page-block2-right-block1-branch3 > p{
+	margin : 5px 10px;
+}
+
+/* 右边表格 */
+/* 宽72 高65 第一个宽71*/
+.page-block2-right-block2 > a{
+	width : 72px;
+	height : 25px;
+	text-align: center;
+	border-right : 1px solid #F1F1F1;
+	border-bottom: 1px solid #F1F1F1;
+	padding-top : 40px;
+	background-repeat: no-repeat;
+	background-position: 22px 10px;
+	background-color : white;
+}
+
+.page-block2-right-block2 > .clear-both{
+	width : 71px;
+}
+
+.page-block2-right-block2 > .temp1{
+	border-right : 0px;
+}
+
+.page-block2-right-block2 > .temp2{
+	border-bottom: 0px;
+}
+
+/* 背景图排版 */
+.page-block2-right-block2-image1{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_03.gif");
+}
+.page-block2-right-block2-image2{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_05.gif");
+}
+.page-block2-right-block2-image3{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_07.gif");
+}
+.page-block2-right-block2-image4{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_09.gif");
+}
+.page-block2-right-block2-image5{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_15.gif");
+}
+.page-block2-right-block2-image6{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_16.gif")
+}
+.page-block2-right-block2-image7{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_17.gif");
+}
+.page-block2-right-block2-image8{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_18.gif");
+}
+.page-block2-right-block2-image9{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_23.gif");
+}
+.page-block2-right-block2-image10{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_24.gif");
+}
+.page-block2-right-block2-image11{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_25.gif");
+}
+.page-block2-right-block2-image12{
+	background-image: url("images/page-top/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_26.gif");
+}
+
+/* 阿里APP巴拉巴拉 */
+.page-block2-right-block3{
+	background-color: white;
+}
+.page-block2-right-block3 > p{
+	margin-top : 5px;
+	margin-left : 10px;
+}
+
+.page-block2-right-block3 > span{
+	margin-right : 15px;
+	margin-top : 5px;
+}
+
+.page-block2-right-block3 > a{
+	width : 33px;
+	height : 33px;
+	margin : 5px 10px;
+	background-image : url("images/page-top/未标题-1.png");
+}
+
+.page-block2-right-block3-a1{
+	background-position: -10px -8px;
+}
+
+.page-block2-right-block3-a2{
+	background-position: -64px -8px;
+}
+
+.page-block2-right-block3-a3{
+	background-position: -118px -8px;
+}
+
+.page-block2-right-block3-a4{
+	background-position: -172px -8px;
+}
+
+.page-block2-right-block3-a5{
+	background-position: -226px -8px;
+}
+
+.page-block2-right-block3-a6{
+	background-position: -10px -50px;
+}
+
+.page-block2-right-block3-a7{
+	background-position: -64px -50px;
+}
+
+.page-block2-right-block3-a8{
+	background-position: -118px -50px;
+}
+
+.page-block2-right-block3-a9{
+	background-position: -172px -50px;
+}
+
+.page-block2-right-block3-a10{
+	background-position: -226px -50px;
 }
