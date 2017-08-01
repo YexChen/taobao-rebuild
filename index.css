@@ -1085,3 +1085,99 @@
 	border : none;
 	color: black;
 }
+
+/* 右侧设置 */
+.wrap-new-1{
+	background-color : #FFDF3B;
+}
+
+.wrap-new-2{
+	background-color : #E9A326;
+}
+
+.wrap-new-1 > i{
+	background-repeat: no-repeat;
+	background-image : url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_03.gif");	
+}
+
+.wrap-new-1 > p {
+	color : black;
+}
+
+.wrap-new-3 > li > a{
+	background-color : #EDB551 !important;
+}
+
+.wrap-new-4 > i {
+	background-size : 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	background-image : url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_13.gif");
+}
+
+.wrap-new-5 > i{
+	background-image: url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_10.gif");
+}
+
+.wrap-new-6 > i{
+	background-size : 100% !important;
+	background-repeat: no-repeat;
+	background-position: 0px -5px;
+	background-image : url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_06.gif");
+}
+
+.wrap-new-7 > i{
+	background-image: url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_16.gif");
+}
+
+.wrap-new-8 > i{
+	background-image: url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_21.gif");
+}
+
+.wrap-new-9 > i{
+	background-image: url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_23.gif");
+}
+
+.wrap-new-10 > i{
+	background-image: url("images/page-center/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_25.gif");
+}
+
+.page-block3-left-section1-wrap2-1-special{
+	width : 98px;
+	height : 94px;
+	margin-bottom : 1px;
+}
+
+#temp5 > a,
+#temp6 > a{
+	color : grey;
+	margin : 0;
+	margin-left : 20px;
+}
+
+#temp5 > i,
+#temp6 > i{
+	width : 74px;
+	height : 58px;
+	margin-top : 20px;
+	background-image : url("images/page-center/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_03.gif");
+}
+
+#temp6{
+	border-top : 1px solid #F2F2F2;
+	margin :  95px 0px 0px 0px;
+}
+
+#temp6 > i{
+	background-image : url("images/page-center/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_12.gif");
+}
+
+#temp7 > i{
+	background-size : 100%;
+	background : no-repeat;
+	background-image : url("images/page-center/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_06.gif");
+}
+
+#temp8{
+	height : 195px;
+}
