@@ -192,3 +192,21 @@
 	border : 0px;
 	outline : 0px;
 }
+
+.margin-right-10{
+	margin-right : 10px;
+}
+
+.margin-left-10{
+	margin-left : 10px;
+}
+
+.margin-top-10{
+	margin-top : 10px;
+}
+
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+
+/* 回头加点margin系列的，很有用 */
