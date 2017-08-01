@@ -242,3 +242,45 @@
 .margin-bottom-2{
 	margin-bottom : 2px;
 }
+
+.color-grey{
+	color : #CFCFCF;
+}
+
+.margin-right-5{
+	margin-right : 5px;
+}
+
+.margin-left-5{
+	margin-left : 5px;
+}
+
+.margin-top-5{
+	margin-top : 5px;
+}
+
+.margin-bottom-5{
+	margin-bottom : 5px;
+}
+
+/* 优先度设置 */
+.z-index-high{
+	z-index : 100;
+}
+
+.z-index-normal{
+	z-index : 50;
+}
+
+.z-index-low{
+	z-index : 10;
+}
+
+.overflow-hidden{
+	overflow: hidden;
+}
+
+.text-overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
