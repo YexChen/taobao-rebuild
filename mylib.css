@@ -210,3 +210,35 @@
 }
 
 /* 回头加点margin系列的，很有用 */
+
+.margin-right-1{
+	margin-right : 1px;
+}
+
+.margin-left-1{
+	margin-left : 1px;
+}
+
+.margin-top-1{
+	margin-top : 1px;
+}
+
+.margin-bottom-1{
+	margin-bottom : 1px;
+}
+
+.margin-right-2{
+	margin-right : 2px;
+}
+
+.margin-left-2{
+	margin-left : 2px;
+}
+
+.margin-top-2{
+	margin-top : 2px;
+}
+
+.margin-bottom-2{
+	margin-bottom : 2px;
+}
