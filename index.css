@@ -40,6 +40,9 @@
 			.background-blue{
 				background-color : #459AC4;
 			}
+			.color-blue{
+				color : #7EABF4;
+			}
 			/* 左侧设置 */
 			.nav-left{
 				height :  100%;
@@ -1913,9 +1916,10 @@
 	height : 17px;
 	margin-top : 15px;
 	border : 2px solid #FF5A1E;
-	border-radius: 30%;
+	border-radius: 7px;
 	text-align: center;
 	padding-top: 2px;
+	color : #FF5A1E;
 }
 
 .image-change1{
@@ -1924,4 +1928,121 @@
 
 .image-change1 > i{
 	background-image: url("images/page-center/shihui/image7.gif");
+}
+
+.image-change2{
+	background-image: url("images/page-center/shihui/image9.gif");
+}
+
+.image-change2 > i{
+	background-image: url("images/page-center/shihui/image8.gif");
+}
+
+.image-change3{
+	background-image: url("images/page-center/shihui/image13.gif");
+	background-position: 90px 44px;
+}
+
+.image-change3 > i{
+	background-image: url("images/page-center/shihui/image11.gif");
+	width : 130px;
+}
+
+.image-change4{
+	background-image: url("images/page-center/shihui/image14.gif");
+	background-position: 90px 44px;
+}
+
+.image-change4 > i{
+	background-image: url("images/page-center/shihui/image12.gif");
+}
+
+.tem1 > p,
+.tem1 > a{
+	margin-left : 15px;
+}
+
+.tem1{
+	background-image: url("images/page-center/shihui/image2.gif");
+	background-repeat: no-repeat;
+	background-position: 165px 54px;
+}
+
+.tem1 > i{
+	width : 115px;
+	height : 36px;
+	background-image: url("images/page-center/shihui/image1.gif");
+}
+
+.tem1 > a{
+	width : 68px;
+	height : 15px;
+	margin-top : 22px;
+	border : 2px solid #FF5A1E;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 3px;
+	color : #FF5A1E;
+}
+
+.page-block3-left-section7{
+	background-image: url("images/page-center/shihui/image15.png");
+}
+
+.page-block3-right-section1 > i{
+	width : 80px;
+	height : 110px;
+	background-image: url("images/page-center/celan/image1.png");
+}
+
+.page-block3-right-section1 > a{
+	margin-left: 245px;
+	margin-bottom: 15px;
+	margin-top : 10px;
+}
+
+.page-block3-right-section1 > p{
+	margin-left : 85px;
+}
+
+.page-block3-right-section2 > em{
+	background-image: url("images/page-center/celan/image2.png");
+	width : 180px;
+	height : 47px;
+}
+
+.page-block3-right-section2 > i{
+	width : 114px;
+	height : 1129px;
+	background-image : url("images/page-center/celan/image4.png");
+	margin : 0px 0px 0px 0px;
+}
+
+.page-block3-right-section2 > p{
+	margin-left : 114px;
+	line-height : 18px;
+
+}
+
+#temp40{
+	margin-top : 6px;
+}
+
+.page-block3-right-section2 > .temp40{
+	margin-top : 23px;
+}
+
+#temp41{
+	margin-top : 13px;
+}
+
+.page-block3-right-section2 > h1{
+	width : 18px;
+	height : 18px;
+	background-image: url("images/page-center/celan/image5.png");
+	margin : 15px 0px 0px 98px;
+}
+
+.page-block3-right-section2 > h2{
+	margin : 17px 0px 0px 5px;
 }
