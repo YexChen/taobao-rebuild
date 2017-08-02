@@ -832,6 +832,7 @@
 	width : 880px;
 	height : 100%;
 	margin : 0px 10px 0px 40px;
+	background-color : #F1F1F1;
 }
 
 .page-block3-right{
@@ -861,8 +862,12 @@
 	width : 219px;
 	height : 260px;
 	margin-right: 1px;
+	background-color: #F1F1F1;
 }
 
+.page-block3-left-section4 > div{
+ 	background-color:#FFF;
+}
 /* 276 200 200 200 */
 .page-block3-left-section5{
 	width : 200px;
@@ -1359,6 +1364,7 @@
 .page-block3-left-section4-div2 > a{
 	background-color : #FF0055;
 	width : 90px;
+	height : 40px;
 	margin-top : 164px;
 	margin-left : 10px;	
 }
@@ -1453,6 +1459,16 @@
 
 .page-block3-left-section4-type3-div2 .p111{
 	margin-top : 120px;
+	margin-left : 20px;
+}
+
+.page-block3-left-section4-type3-div2 .p555{
+	margin-top : 120px;
+	margin-left : 30px;
+}
+
+.page-block3-left-section4-type3-div2 .p444{
+	margin-left : 32px;
 }
 
 .page-block3-left-section4-type3-div2  p{
@@ -1489,4 +1505,99 @@
 
 .page-block3-left-section4-type3-div3 .p333{
 	margin-bottom: 10px;
+}
+
+
+.page-block3-sec2-param1{
+	background-image : url("images/page-center/baoliao/image2.gif");
+	background-position: 10px 38px;
+}
+
+.page-block3-sec2-param2{
+	background-image: url("images/page-center/baoliao/image3.gif");
+	background-position: 30px 5px;
+}
+
+.page-block3-sec2-param3{
+	background-image : url("images/page-center/baoliao/image4.gif");
+	background-position: 10px 12px;
+}
+
+.page-block3-sec2-param4{
+	background-image : url("images/page-center/baoliao/image5.gif");
+	background-position: 11px 2px;
+}
+
+.page-block3-left-section4-type2-div5  a{
+	width : 88px;
+	background-color: #F1F1F1;
+	margin : auto;
+	margin-top : 78px;
+}
+
+.page-block3-left-section4-type2-div2  a{
+	width : 88px;
+	background-color: #F1F1F1;
+	margin : auto;
+	margin-top : 78px;
+}
+
+.page-block3-left-section4-type2-div3  a{
+	width : 88px;
+	background-color: #F1F1F1;
+	margin : auto;
+	margin-top : 78px;
+}
+
+.page-block3-left-section4-type2-div4  a{
+	width : 88px;
+	background-color: #F1F1F1;
+	margin : auto;
+	margin-top : 78px;
+}
+
+.page-block3-sec2-param5{
+	background-image: url("images/page-center/baoliao/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_03.gif") ;
+}
+
+.page-block3-sec2-param6{
+	background-image: url("images/page-center/baoliao/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_10.gif") ;
+
+}
+
+.page-block3-sec2-param6 > a{
+	background-color : #940CE2;
+}
+
+.page-block3-sec2-param7{
+	background-image: url("images/page-center/baoliao/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_07.gif") ;	
+}
+
+
+.page-block3-sec2-param8{
+	background-image: url("images/page-center/baoliao/sec2/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_13.gif") ;		
+}
+
+.page-block3-sec2-param9{
+	background-image: url("images/page-center/baoliao/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_06.gif")
+}
+
+.page-block3-sec2-param10{
+	background-image: url("images/page-center/baoliao/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_11.gif")
+
+}
+
+.page-block3-sec2-param11{
+	background-image: url("images/page-center/baoliao/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_13.gif")
+
+}
+
+.page-block3-sec2-param12{
+	background-image: url("images/page-center/baoliao/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_17.gif")
+
+}
+
+.page-block3-sec2-param13{
+	background-image: url("images/page-center/baoliao/sec3/FireShot-Capture-4---淘宝网---淘！我喜欢---https___www.taobao_18.gif")
+
 }
