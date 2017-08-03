@@ -198,6 +198,7 @@
 	width: 100%;
 	height: 99px;
 	padding-top : 30px;
+	background-color: white;
 }
 /* 搜索框那一排什么的 */
 
@@ -228,6 +229,9 @@
 
 
 /* ##################################重新搭建一级区块######################################### */
+body{
+	background-color: #F1F1F1;
+}
 .page-block2{
 	width : 100%;
 	height : 630px;
@@ -243,7 +247,7 @@
 .page-block4{
 	width : 100%;
 	height : 630px;
-	background-color : blue;
+	background-color : #F1F1F1;
 }
 
 .page-block5{
@@ -254,20 +258,22 @@
 
 .page-block6{
 	width : 100%;
-	height : 700px;
-	background-color : blue;
+	height : 705px;
+	background-color : #F1F1F1;
+	margin-top : 20px;
 }
 
 .page-block7{
 	width : 100%;
-	height : 2380px;
-	background-color : red;
+	height : 750px;
+	background-color : #F1F1F1;
+	margin-top : 20px;
 }
 
 .page-block8{
 	width : 100%;
 	height : 200px;
-	background-color : blue;
+	background-color : #F1F1F1;
 }
 
 .page-block9{
@@ -2214,4 +2220,167 @@
 .page-block4-center-small-2 > p {
 	margin : 0px 0px 0px 10px;
 	line-height : 15px;
+}
+
+/* 389 1 + 390x1 */
+.page-block4-footer-blocks{
+	float : left;
+	width : 389px;
+	height : 100%;
+	margin : 0px 1px 0px 0px;
+}
+
+.page-block4-footer-blocks > img{
+	margin : 10px 0px 0px 9px;
+}
+
+.page-block6-inner{
+	width : 1175px;
+	height : 100%;
+	margin : auto;
+	background-color : white;
+}
+
+.page-block6-header{
+	width : 100%;
+	height : 50px;
+}
+
+/* 327 1 327 */
+/* 587 1 587 */
+.page-block6-header > img{
+	margin : auto;
+}
+
+.page-block6-blocks{
+	width : 587px;
+	height : 327px;
+}
+
+.page-block6-blocks > p,
+.page-block6-blocks > img{
+	margin-left : 20px;
+}
+
+.page-block6-blocks > p{
+	line-height: 30px;
+}
+ 
+/* 1175 100% */
+/* 猜你喜欢 */
+.page-block7-inner{
+	width : 1175px;
+	height : 100%;
+	background-color : white;
+	margin : auto;
+}
+
+.page-block7-header{
+	width : 100%;
+	height : 60px;
+}
+
+.page-block7-header > img{
+	width : 252px;
+	height : 100%;
+	margin : auto;
+}
+
+/* 220 300 */
+.page-block7-blocks{
+	width : 100%;
+	height : 300px;
+	margin : 15px 0px;
+}
+
+.page-block7-blocks-1{
+	width : 220px;
+	height : 300px;
+	margin : 0px 4px;
+	background-color : #F5F5F5;
+	float : left;
+}
+
+.page-block7-blocks-1 > p{
+	line-height : 18px;
+	margin-left : 10px;
+}
+
+.page-block7-blocks-1 > p >span{
+	margin-left : 110px;
+}
+
+#special{
+	margin-left : 80px;
+}
+
+#special1{
+	margin-left : 0px;
+}
+
+.page-block7-footer{
+	width : 100%;
+	height: 45px;
+}
+
+.page-block7-footer > img{
+	margin : auto;
+}
+
+
+/* 220 90 */
+/* 用户保障什么的 */
+.page-block8 > div{
+	width : 220px;
+	height : 90px;
+	margin-top : 40px;
+	float : left;
+}
+
+.page-block8-1{
+	margin-left : 65px;
+
+}
+
+.page-block8-2{
+	margin-left : 90px;
+}
+
+.page-block8-3{
+	margin-left: 120px;
+}
+
+.page-block8-4{
+	margin-left: 80px;
+}
+
+.page-block8 > div > a{
+	margin : 5px 7px;
+	color : #B6B6B6;
+}
+
+.page-block8 > div > p{
+	margin : 10px 14px;
+}
+
+/* 1180 70 */
+.page-block9-1{
+	width : 1180px;
+	height : 70px;
+	background-color : blue;
+	margin : auto;
+}
+
+.page-block9-2{
+	width : 1180px;
+	height : 80px;
+	background-color : green;
+	margin : auto;
+}
+
+.page-block9-3{
+	width : 1180px;
+	height : 90px;
+	background-color : yellowgreen;
+	margin : auto;
 }
