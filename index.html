@@ -4,7 +4,12 @@
 		<meta http-equiv="Content-Type" content = "text/html;charset = utf-8">
 		<title>哈哈哈</title>
 		<link rel = "stylesheet" href = "index.css">
-		<link rel = "stylesheet" href = "mylib.css">		
+		<link rel = "stylesheet" href = "mylib.css">
+		<script src = "https://cdn.bootcss.com/jquery/3.2.1/jquery.js">
+		</script>		
+		<script src = "index.js">
+		</script>
+
 		<style>
 		</style>
 	</head>
@@ -14,7 +19,25 @@
 			<div class = "nav font-12">
 				<div class = "nav-left">
 					<ul>
-						<li class = "left1"><a href = "#">中国大陆<img src = "images/小箭头.png" class = "arrow"></a></li>
+						<li class = "left1 relative"><a href = "#">中国大陆<img src = "images/小箭头.png" class = "arrow"></a>
+							<span class = "absolute z-index-high"></span>
+							<div class = "location absolute z-index-normal display-none">
+								<ul>
+									<li>全球</li>
+									<li>中国大陆</li>
+									<li>香港</li>
+									<li>台湾</li>
+									<li>澳门</li>
+									<li>韩国</li>
+									<li>马来西亚</li>
+									<li>澳大利亚</li>
+									<li>新加坡</li>
+									<li>新西兰</li>
+									<li>加拿大</li>
+									<li>美国</li>
+									<li>日本</li>
+							</div>
+						</li>
 						<li class = "left2"><a href = "#">亲，请登录</a></li>
 						<li class = "left3"><a href = "#">免费注册</a></li>
 						<li class = "left4"><a href = "#">手机逛淘宝</a></li>
@@ -22,9 +45,25 @@
 				</div>
 				<div class = "nav-right">
 					<ul>
-						<li class = "right1"><a href = "#">我的淘宝</a><img src = "images/小箭头.png" class = "arrow"></li>
+						<li class = "right1 relative"><a href = "#">我的淘宝</a><img src = "images/小箭头.png" class = "arrow">
+							<div class = "user absolute z-index-normal display-none">
+								<span class = "absolute z-index-high"></span>
+								<ul>
+									<li class = "font-11 font-weight-500">已买到的宝贝</li>
+									<li class = "font-11 font-weight-500">我的足迹</li>
+								</ul>
+							</div>
+						</li>
 						<li class = "right2"><a href = "#"><img src = "images/购物车空.png" class = "gouwuche"/>购物车</a></li>
-						<li class = "right3"><a href = "#">收藏夹</a><img src = "images/小箭头.png" class = "arrow"></li>
+						<li class = "right3 relative"><a href = "#">收藏夹</a><img src = "images/小箭头.png" class = "arrow">
+							<div class = "user absolute z-index-normal display-none">
+								<span class = "absolute z-index-high"></span>
+								<ul>
+									<li class = "font-11 font-weight-500">收藏的宝贝</li>
+									<li class = "font-11 font-weight-500">收藏的店铺</li>
+								</ul>
+							</div>
+						</li>
 						<li class = "right4"><a href = "#">商品分类</a></li>
 						<li class = "rightq" style = "color : #8C8C8C">|</li>
 						<li class = "right5"><a href = "#">卖家中心</a><img src = "images/小箭头.png" class = "arrow">
@@ -40,7 +79,15 @@
 								</ul>
 							</div>
 						</li>
-						<li class = "right6"><a href = "#">联系客服</a><img src = "images/小箭头.png" class = "arrow"></li>
+						<li class = "right6"><a href = "#">联系客服</a><img src = "images/小箭头.png" class = "arrow">
+							<div class = "user absolute z-index-normal display-none">
+								<span class = "absolute z-index-high"></span>
+								<ul>
+									<li class = "font-11 font-weight-500">消费者客服</li>
+									<li class = "font-11 font-weight-500">卖家客服</li>
+								</ul>
+							</div>	
+						</li>
 						<li class = "right7"><img src = "images/导航.png" class = "navnav"/><a href = "#">网站导航</a><img src = "images/小箭头.png" class = "arrow"></li>
 					</ul>
 				</div>
@@ -51,12 +98,13 @@
 				</div>
 				<div class = "search-wrap">
 					<div class = "search-wrap-top float-left">
-						<a href = "#" class = "color-white background-orange">宝贝</a>
-						<a href = "#">天猫</a>
-						<a href = "#">店铺</a>
+						<a href = "#" class = "color-white background-orange font-11 no-hover">宝贝</a>
+						<a href = "#" class = "font-11 pink-hover orange">天猫</a>
+						<a href = "#" class = "font-11 pink-hover orange">店铺</a>
 					</div>
-					<div class = "search-wrap-middle float-left ">
-						<input class = "float-left"/>
+					<div class = "search-wrap-middle float-left relative">
+						<i class = "absolute"></i>
+						<input placeholder="狂高15厘米精油" class = "float-left font-12"/>
 						<button class = "color-white float-left">搜索</button>
 					</div>
 					<div class = "search-wrap-bottom float-left ">
@@ -74,11 +122,12 @@
 						<a href="#" class = "float-right font-12">更多></a>
 					</div>
 				</div>
-				<div class = "QR-code">
+				<div class = "QR-code" id = "QR">
 				</div>
 			</div>
-			<div class = "subtitles">
-				<div class = "subtitle-options">
+			<div class = "subtitles relative">
+				<a href="#" class = "font-14 float-left font-weight-700 absolute heikeji"></a>
+				<div class = "subtitle-options relative">
 					<a href="#" class = "font-14 float-left orange font-weight-700">天猫</a>
 					<a href="#" class = "font-14 float-left orange font-weight-700">聚划算</a>
 					<a href="#" class = "font-14 float-left orange font-weight-700">天猫超市</a>
@@ -97,7 +146,7 @@
 			<div class = "page-block2 ">
 				<div class = "page-block2-inner ">
 					<div class = "page-block2-left  float-left">
-						<div class = "page-block2-left-zhuti float-left">
+						<div class = "page-block2-left-zhuti float-left z-index-high">
 							<p class = "float-left page-block2-left-zhuti-text1 color-white font-14 font-weight-600">主题市场</p><i class = "page-block2-left-zhuti-image1 float-right"></i>
 							<ul class = "font-14 font-weight-600 color-white">
 								<li   class = "font-14 float-left  page-block2-left-zhuti-list1">

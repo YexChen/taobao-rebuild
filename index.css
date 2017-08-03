@@ -206,6 +206,7 @@
 	width : 100%;
 	height : 35px;
 	margin-bottom: 10px;
+	background-color: white;
 }
 .logo{
 	float : left;
@@ -316,9 +317,9 @@ body{
 .search-wrap-top > a{
 	float : left;
 	width : 50px;
-	height : 20px;
+	height : 16px;
 	text-align : center;
-	padding-top : 6px;
+	padding-top : 10px;
 }
 
 .search-wrap-middle > input{
@@ -326,6 +327,7 @@ body{
 	height : 100%;
 	border : 0px;
 	outline : 0px;
+	text-indent: 2em;
 } 
 
 .search-wrap-middle >button{
@@ -2432,4 +2434,114 @@ body{
 
 #special3{
 	margin-top : 0px;
+}
+
+
+/* #########################################特效追加################################## */
+.location{
+	width : 268px;
+	height : 288px;
+	overflow-y : scroll;
+	overflow-x : hidden;
+}
+
+.location > ul{
+	width : 100%;
+	height : 100%;
+	border : 1px solid #EEEEEE;
+
+}
+
+.location > ul > li{
+	width : 100%;
+	height : 29px;
+	background-color : white;
+	text-align : left;
+	text-indent : 1em;
+	cursor: pointer;
+}
+
+.location > ul > li:hover{
+	background-color : #F4F4F4;
+}
+
+.left1:hover > .location{
+	display : block;
+}
+
+.left1:hover{
+	background-color: white;
+}
+
+.left1:hover > span{
+	width : 78px;
+	height :10px;
+	margin-top : 30px;
+	margin-left : -68px;
+	background-color: white;
+}
+
+.user{
+	width : 84px;
+	height : 74px;
+}
+.user > ul{
+	border : 1px solid #EEEEEE;
+	width : 84px;
+	height : 74px;
+}
+
+.user > ul > li{
+	text-align : left;
+	text-indent : 0.5em;
+	background-color: white;
+	color: #969696;
+}
+
+.user > span{
+	width : 84px;
+	height : 1px;
+	background-color : white;
+	margin-left : -42px;
+}
+
+.right1:hover > .user,
+.right3:hover > .user,
+.right6:hover > .user{
+	display : block;
+}
+
+.right1:hover,
+.right3:hover,
+.right6:hover{
+	background-color : white;
+}
+
+.pink-hover:hover{
+	background-color : #F9E6E6;
+}
+
+.no-hover:hover{
+	color : white;
+}
+
+.search-wrap-middle > i {
+	width : 22px;
+	height : 18px;
+	top : 10px;
+	right : 120px;
+	background-image: url("images/texiao/image1.png");
+	background-repeat : no-repeat;
+}
+
+.search-wrap-middle > i:hover{
+	background-image: url("images/texiao/image2.png");
+}
+
+.heikeji{
+	width : 80px;
+	height : 28px;
+	top : 3px;
+	right : 140px;
+	background-image : url("images/texiao/image3.gif");
 }
