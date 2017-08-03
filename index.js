@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$("#QR").click(function(e){
+		$("#QR").hide();
+	});
+	$("#texiao2").children().hover(function(e){
+		console.log(e);
+		$(e).css("border","0px");
+	})
+})

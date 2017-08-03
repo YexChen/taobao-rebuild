@@ -429,6 +429,7 @@ body{
 	width : 515px;
 	height : 215px;
 	margin : 0px;
+	cursor : text;
 }
 
 .page-block2-left-wrapper-block4{
@@ -484,7 +485,7 @@ body{
 .page-block2-left-zhuti > ul > li{
 	width : 100%;
 	height : 17px;
-	margin : 5px 0px 5px 0px;
+	padding : 5px 0px 5px 0px;
 }
 
 .page-block2-left-zhuti > ul > li > i{
@@ -576,6 +577,7 @@ body{
 .page-block2-left-zhuti-bottom{
 	width : 100%;
 	height : 67px;
+	margin-top : 10px;
 	background-image: url("images/page-top/TB12qt1SXXXXXXqXFXXXXXXXXXX-380-80.jpg_320x320q90.jpg");
 }
 
@@ -2541,7 +2543,34 @@ body{
 .heikeji{
 	width : 80px;
 	height : 28px;
-	top : 3px;
+	top : 168px;
 	right : 140px;
 	background-image : url("images/texiao/image3.gif");
+}
+
+.page-block2-left-zhuti > ul > li{
+	cursor : pointer;
+}
+
+.page-block2-left-zhuti-bottom{
+	cursor : pointer;
+}
+
+.page-block2-left-zhuti > ul > li:hover{
+	background-color : #F94A14;
+}
+
+.page-block2-left-zhuti > ul > li:hover > i{
+	background-image : url("images/page-top/zuo_jingling2.jpg");
+}
+
+.tianmao{
+	width : 49px;
+	height : 14px;
+	left: 198px;
+	top : 291px;
+}
+
+.page-block2-right-block1-branch3 > a:hover{
+	border-bottom: 2px solid #FF4400;
 }
