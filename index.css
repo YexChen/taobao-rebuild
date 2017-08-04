@@ -6,6 +6,9 @@
 			img{
 				cursor : pointer;
 			}
+			i{
+				cursor : pointer;
+			}
 			html,
 			body{
 				width :  100%;
