@@ -157,10 +157,14 @@ $(document).ready(function(){
 		$(this).append(chengse);
 		var chengse = "<div class = 'texiao25'></div>";
 		$(this).append(chengse);
+		var chengse = "<img src = 'images/texiao/image6.png' class = 'texiao29'>";
+		$(this).append(chengse);
+
 	},function(){
 		$(this).children(".texiao22").remove();
 		$(this).children(".texiao23").remove();
 		$(this).children(".texiao24").remove();
-		$(this).children(".texiao25").remove();		
+		$(this).children(".texiao25").remove();
+		$(this).children(".texiao29").remove();		
 	})
 })
