@@ -892,6 +892,7 @@ body{
 
 .page-block3-left-section6{
 	width : 276px;
+	height : 135px;
 }
 
 .page-block3-left-section7{
@@ -917,11 +918,24 @@ body{
 	background-color : #F1F1F1;
 }
 
+.page-block3-right-section3 > div img:hover{
+	opacity : 0.7;
+	cursor: pointer;
+}
+
+.page-block3-right-section3 p:hover{
+	color : #FF4400;
+	cursor: pointer;
+}
+
 .page-block3-right-section4{
 	width : 100%;
 	height : 270px;
 }
 
+.page-block3-right-section4:hover{
+	opacity : 0.7;
+}
 /* ##########################################页面中间靠左的地方######################### */
 .page-block3-left-section1-wrap1{
 	width : 100px;
@@ -932,12 +946,35 @@ body{
 .page-block3-left-section1-wrap2{
 	width : 333px;
 	height : 353px;
-	border-top : 3px solid #406CC0;
-	border-bottom : 3px solid #406CC0;
-	border-right : 2px solid #406CC0;
+	border-top : 3px solid #C6D3EC;
+	border-bottom : 3px solid #C6D3EC;
+	border-right : 2px solid #C6D3EC;
 	background-color: #F1F1F1;
 }
 
+.page-block3-left-section1-wrap2:hover{
+	border-top : 3px solid #406CC0;
+	border-bottom : 3px solid #406CC0;
+	border-right : 2px solid #406CC0;
+}
+
+.texiao3:hover{
+	border-top : 3px solid #E9A326;
+	border-bottom : 3px solid #E9A326;
+	border-right : 2px solid #E9A326;
+}
+
+.texiao4:hover{
+	border-top : 3px solid #E44346;
+	border-bottom : 3px solid #E44346;
+	border-right : 2px solid #E44346;
+}
+
+.texiao5:hover{
+	border-top : 3px solid #FE6FA6;
+	border-bottom : 3px solid #FE6FA6;
+	border-right : 2px solid #FE6FA6;
+}
 .page-block3-left-section1-wrap2-1{
 	width : 98px;
 	height : 195px;
@@ -961,7 +998,7 @@ body{
 /* 197 155 */
 .page-block3-left-section1-wrap2-5{
 	width : 197px;
-	height : 159px;
+	height : 150px;
 }
 
 .page-block3-left-section1-wrap2-6{
@@ -971,7 +1008,7 @@ body{
 
 .page-block3-left-section1-wrap2-7{
 	width : 133px;
-	height : 80px;
+	height : 71px;
 }
 
 .page-block3-left-section1-wrap1-1{
@@ -1004,6 +1041,11 @@ body{
 .page-block3-left-section1-wrap1-2 > ul > li > a{
 	padding : 2px 6px;
 	background-color : #6689CD;
+}
+
+.page-block3-left-section1-wrap1-2 > ul > li > a:hover{
+	color : #FF6C23;
+	background-color : white;
 }
 
 .page-block3-left-section1-wrap1-2 > ul > li{
@@ -1126,6 +1168,11 @@ body{
 
 .wrap-new-3 > li > a{
 	background-color : #EDB551 !important;
+}
+
+.wrap-new-3 > li > a:hover{
+	background-color: white !important;
+	color : #FF7E3E !important;
 }
 
 .wrap-new-4 > i {
@@ -1257,6 +1304,12 @@ body{
 	background-color : #E9696B !important;
 }
 
+#temp17 > li > a:hover{
+	background-color : white !important;
+	color : #FF6619 !important;
+}
+
+
 #temp18{
 	background-color: #E44346;
 }
@@ -1269,6 +1322,10 @@ body{
 	background-color: #FE8CB8;
 }
 
+#temp20 > li > a:hover{
+	background-color: white;
+	color : #FF7C3B;
+}
 #temp21{
 	background-color: #FF5898;
 }
@@ -2573,4 +2630,289 @@ body{
 
 .page-block2-right-block1-branch3 > a:hover{
 	border-bottom: 2px solid #FF4400;
+}
+
+.page-block2-right-block1-branch3 > p,{
+	cursor : pointer;
+}
+
+.page-block2-right-block1-branch3 > p:hover{
+	color : orange;
+}
+
+.page-block2-right-block2 > a:hover{
+	border : 1px solid #FF4400;
+	width : 70px;
+}
+
+.page-block2-right-block3 > a{
+	position : relative;
+}
+
+.texiao2{
+	top : -110px;
+	left : -25px;
+	padding :5px;
+	font-size : 12px;
+	color : black;
+	text-align : center;
+}
+
+.page-block2-right-block3 > .cursor-pointer:hover{
+	color : orange;
+}
+
+/* 中间区域 */
+.page-block3-left-section1-wrap2 > div:hover{
+	opacity : 0.7;
+}
+
+.page-block3-left-section1-wrap2 > div p,
+.page-block3-left-section1-wrap2 > div a,
+.page-block3-left-section1-wrap2 > div span,
+.page-block3-left-section1-wrap2  i{
+	cursor : pointer;
+}
+
+.page-block3-left-section1-wrap2 > div p:hover,
+.page-block3-left-section1-wrap2 > div a:hover{
+	color : #FF4400;
+}
+
+.page-block3-left-section4{
+	position: relative;
+}
+.texiao9{
+	position : absolute;
+	width : 219px !important;
+	height : 1px !important;
+	top : 259px;
+	background-color : #FF4400 !important;
+}
+
+.texiao6{
+	position : absolute;
+	width : 219px !important;
+	height : 1px !important;
+	top : 0px;
+	background-color : #FF4400 !important;
+}
+
+.texiao7{
+	position : absolute;
+	width : 1px !important;
+	height : 260px !important;
+	top : 0px;
+	background-color : #FF4400 !important;
+}
+
+.texiao8{
+	position : absolute;
+	width : 1px !important;
+	height : 260px !important;
+	left : 219px;
+	background-color : #FF4400 !important;
+}
+
+.page-block3-left-section4 > div:hover{
+	opacity : 0.7;
+}
+
+.texiao10:hover{
+	color : #FF8B31;
+	opacity : 1;
+}
+
+.texiao11{
+	background-image : url("images/page-center/baoliao/pinzhi.png");
+}
+
+.texiao12{
+	background-image : url("images/page-center/baoliao/wanwei.png");
+}
+
+.texiao13{
+	background-image : url("images/page-center/baoliao/shihui.png");
+}
+
+.page-block3-left-section3 > a:hover{
+	background-color : #FF4400;
+	color : white;
+	cursor: pointer;
+	
+}
+
+.page-block3-left-section3 > a{
+	border-radius: 12px !important;
+}
+
+/* 实惠什么什么边框修复 */
+.page-block3-left-section6{
+	position : relative;
+}
+
+.texiao14{
+	position : absolute;
+	width : 276px;
+	height : 1px;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.texiao15{
+	position : absolute;
+	width : 1px;
+	height : 135px;
+	top : 0px;
+	left : 275px;
+	background-color : #FF4400;
+}
+
+.texiao16{
+	position : absolute;
+	width : 276px;
+	height : 1px;
+	top : 135px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.texiao17{
+	position : absolute;
+	width : 1px;
+	height : 135px;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.page-block3-left-section5{
+	position : relative;
+}
+
+.texiao18{
+	position : absolute;
+	width : 200px;
+	height : 1px;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.texiao19{
+	position : absolute;
+	width : 1px;
+	height : 135px;
+	top : 0px;
+	left : 200px;
+	background-color : #FF4400;
+}
+
+.texiao20{
+	position : absolute;
+	width : 200px;
+	height : 1px;
+	top : 135px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.texiao21{
+	position : absolute;
+	width : 1px;
+	height : 135px;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;
+}
+
+.page-block3-left-section5 > div:hover,
+.page-block3-left-section6 > div:hover{
+	opacity : 0.7;
+}
+
+
+.page-block4-footer-blocks{
+	position : relative;
+}
+
+.texiao22{
+	position : absolute;
+	width : 1px;
+	height : 100%;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;	
+}
+
+.texiao23{
+	position : absolute;
+	width : 1px;
+	height : 100%;
+	top : 0px;
+	right : 0px;
+	background-color : #FF4400;	
+}
+
+
+.texiao24{
+	position : absolute;
+	width : 100%;
+	height : 1px;
+	top : 0px;
+	left : 0px;
+	background-color : #FF4400;	
+}
+
+
+.texiao25{
+	position : absolute;
+	width : 100%;
+	height : 1px;
+	bottom : 0px;
+	left : 0px;
+	background-color : #FF4400;	
+}
+
+.page-block4-center > div,
+.page-block4-center-small-2,
+.page-block4-center-small-1{
+	position : relative;
+}
+
+.page-block4-center{
+	position : relative;
+}
+
+.texiao26{
+	position : absolute;
+	background-color : #FD5211;
+	top : 8px;
+	left : 10px;
+	opacity : 0.9;
+}
+
+.texiao27{
+	position : absolute;
+	bottom : 10px;
+	left : 8px;
+	width : 86px;
+	height : 30px;
+	background-color : white;
+	border : 0px;
+	border-radius : 5px;
+	color : #FF7948;
+}
+
+.texiao28{
+	position : absolute;
+	color : white;
+	font-size : 13px;
+	left : 8px;
+	bottom : 60px;
+}
+
+.page-block7-blocks-1{
+	position : relative;
 }

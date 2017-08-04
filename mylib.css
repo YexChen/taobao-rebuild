@@ -276,6 +276,10 @@
 	z-index : 10;
 }
 
+.z-index-bad{
+
+}
+
 .overflow-hidden{
 	overflow: hidden;
 }
